@@ -1,10 +1,11 @@
 import './App.css';
+import CountrieComponent from "./assets/components/countrie_component.jsx";
 
 function App() {
 
     return (
         <>
-            Maak je applicatie hier!
+            <CountrieComponent countryPopulation={"20"} countryName={"James"} flag={}></CountrieComponent>
         </>
     )
 }
