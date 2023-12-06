@@ -1,15 +1,16 @@
 import React from 'react';
+import "./countrie_component_styles.css"
 
-function CountrieComponent({countryName, flag, countryPopulation}) {
+function CountryComponent({countryName, flag, countryPopulation}) {
     return (
         <section className="countryTile">
             <div className="countryFlex">
                 <img src={flag} alt=""/>
-                <h2>{countryName}</h2>
+                <h4>{countryName}</h4>
             </div>
             <p> Has a population of {countryPopulation} people</p>
         </section>
     );
 }
 
-export default CountrieComponent;
+export default CountryComponent;
