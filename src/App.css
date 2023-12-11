@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.countryList {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*gap: 20px;*/
+}
+
+.flagImage {
+    width: 20%;
+}
+
+.flagNameTile {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.countryName {
+    font-size: 25px;
+
+}
+
+.listItem {
+    width: 20vw;
+    margin-top: 24px;
+    list-style: none;
+}
+
+.europe {
+    color: yellow;
+}
+
+.asia {
+    color: red;
+}
+
+.africa {
+    color: blue;
+}
+
+.americas {
+    color: darkgreen;
+}
+
+.oceania {
+    color: purple;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
