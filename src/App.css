@@ -23,6 +23,11 @@
     align-content: center;
 }
 
+.countryName {
+    font-size: 25px;
+
+}
+
 .listItem {
     width: 20vw;
     margin-top: 24px;
@@ -47,4 +52,10 @@
 
 .oceania {
     color: purple;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
